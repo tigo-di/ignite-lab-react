@@ -26,9 +26,8 @@ interface GetLessonsQueryResponse {
 
 export function Sidebar() {
 
-
-
   const { data } = useQuery<GetLessonsQueryResponse>(GET_LESSON_QUERY);
+
 
   return (
     <aside className="w-[348px] bg-gray-700 p-6 border-left border-gray-600">
